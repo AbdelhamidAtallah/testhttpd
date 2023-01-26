@@ -8,7 +8,8 @@ pipeline {
                 sh 'cd /var/www/httpdtest.com/'
                 echo 'Getting Backend project from Git';
                  git branch:'main',
-                 url: 'https://github.com/AbdelhamidAtallah/testhttpd.git'
+                 url: 'https://github.com/AbdelhamidAtallah/testhttpd.git',
+                 git pull
                 
            }
         }
