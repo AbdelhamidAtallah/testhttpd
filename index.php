@@ -1,3 +1,3 @@
-<?php 
- haaaaa
-?>
+<html>
+ <p>haaaaa</p>
+</html> 
